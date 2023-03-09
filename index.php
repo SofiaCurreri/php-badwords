@@ -8,7 +8,7 @@
 </head>
 <body>
     
-   <form method="GET" action="./censoring.php">
+   <form method="GET" action="censoring.php">
     <label for="paragraph"><h3>Scrivi un testo</h3></label>
     <textarea name="paragraph" id="" cols="30" rows="10"></textarea>
     <br>
