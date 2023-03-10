@@ -10,11 +10,12 @@
     
    <form method="GET" action="censoring.php">
     <label for="paragraph"><h3>Scrivi un testo</h3></label>
-    <textarea name="paragraph" id="" cols="30" rows="10"></textarea>
+    <textarea name="paragraph" id="paragraph" cols="30" rows="10"></textarea>
     <br>
     <br>
     <label for="censored"> <h3>Parola da censurare</h3></label>
-    <input type="text" id="censored" name="censoredWord">
+    <input type="text" id="censored" name="censored">
+    <button>Invia</button>
    </form> 
 </body>
 </html>

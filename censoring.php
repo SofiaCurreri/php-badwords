@@ -1,11 +1,13 @@
 <?php
 
 $paragraph = $_GET["paragraph"];
-var_dump($paragraph);
+$censored_word = $_GET["censored"];
 echo $paragraph;
+echo "<br>";
 echo strlen($paragraph);
+echo "<br>";
 
-str_replace("censored", "***", "paragraph");
-echo $paragraph;
+echo str_replace($censored_word, "***", $paragraph);
+
 
 ?>
